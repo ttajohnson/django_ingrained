@@ -49,3 +49,19 @@ body {
 #fonts-text #px-p {
     font-size: 16px;
 }
+
+#box-models {
+    text-align: center;
+}
+
+#box-models #up {
+    border: 10px solid blue;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+#box-models #down {
+    border: 10px solid red;
+    padding-top: 20px;
+    margin: 20px 20px 100px 10px;
+}
