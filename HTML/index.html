@@ -7,7 +7,7 @@
     <title>HTML</title>
 </head>
 <body>
-    <section id="basic-tags">
+    <section id="html-basics">
         <div id="basics">
             <h1>Basic Tags</h1>
             <h2>Headers</h2>
@@ -19,7 +19,7 @@
         </div>
         <hr>
         <div id="lists">
-            <h1>Lists</h1>
+            <h2>Lists</h2>
             <div id="unordered-list">
                 <h3>Unordered List</h3>
                 <ul>
@@ -52,9 +52,92 @@
             </div>
         </div>
         <hr>
-        <div id="Atts-imgs-anchors">
+        <div id="atts-imgs-anchors">
             <h3>Attributes, Images, Anchors</h3>
-            
+            <div id="image">
+                <img src="assets/bill-evans.jpg" alt="A Photo of Jazz Pianist, Bill Evans">
+            </div>
+            <div id="anchor">
+                <a href="page_two.html">Have you seen Page Two?</a> <br>
+                <a href="https://en.wikipedia.org/wiki/Bill_Evans">Bill Evans Wiki</a>
+            </div>
+        </div>
+        <hr>
+        <div id="tables">
+            <h3>Tables</h3>
+            <div>
+                <table border="2">
+                    <thead>
+                        <th>Column One</th>
+                        <th>Column Two</th>
+                        <th>Column Three</th>
+                    </thead>
+                    <tr>
+                        <td></td>
+                        <td>Data Two</td>
+                        <td>Data Three</td>
+                    </tr>
+                    <tr>
+                        <td>Data One</td>
+                        <td>Data Two</td>
+                        <td>Data Three</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <hr>
+        <div id="forms-1">
+            <h3>Forms Pt. 1</h3>
+            <div id="starter-form">
+                <form action="page_two.html">
+                    <label for="fname">First Name:</label>
+                    <input id="fname" name="fname" type="text">
+                    <br>
+                    <label for="lname">Last Name:</label>
+                    <input id="lname" name="lname" type="text">
+                    <br>
+                    <input type="submit">
+                </form>
+            </div>
+            <br>
+            <div>
+                <form action="page_two.html">
+                    <label for="email">Email:</label>
+                    <input placeholder="Type your email..." id="email" name="email" type="email"><br>
+
+                    <label for="pw">Password:</label>
+                    <input id="pw" name="pw" type="password"><br>
+
+                    <input type="submit" value="Click Here">
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div id="forms-2">
+            <h3>Forms Pt. 2</h3>
+            <div>
+                <h4>Hotel Feedback</h4>
+                <form action="page_two.html">
+                    <p>Are you from inside or outside the USA?</p>
+                    <label for="in">Inside: </label>
+                    <input name="location" id="in" value="in" type="radio">
+                    <br>
+                    <label for="out">Outside: </label>
+                    <input name="location" id="out" value="out" type="radio">
+                    <br>
+                    <p>How was your service?</p>
+                    <select name="stars" id="">
+                        <option value="Great">3</option>
+                        <option value="Meh">2</option>
+                        <option value="Awful">1</option>
+                    </select>
+                    <br>
+                    <p>Comments:</p>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <br>
+                    <input type="submit">
+                </form>
+            </div>
         </div>
     </section>
 </body>
