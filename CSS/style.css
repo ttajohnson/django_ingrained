@@ -1,0 +1,51 @@
+body {
+    background-color: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#basic-style h1 {
+    color: blue;
+}
+
+#basic-style h2 {
+    color: green;
+    background-color: orange;
+}
+
+#common-style-atts div {
+    background-color: green;
+    border-color: orange;
+    border-width: 10px;
+    border-style: dotted;
+}
+
+#common-style-atts span {
+    background-color: red;
+}
+
+#classes-ids .myclass {
+    color: purple;
+}
+
+#classes-ids #one {
+    color: aqua;
+}
+
+#classes-ids #two {
+    color: yellow;
+}
+
+#fonts-text h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+}
+
+#fonts-text #em-p {
+    font-size: 3em;
+    font-family: 'Rubik Spray Paint', Arial, Helvetica, sans-serif;
+}
+
+#fonts-text #px-p {
+    font-size: 16px;
+}
